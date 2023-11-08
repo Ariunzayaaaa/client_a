@@ -1,5 +1,5 @@
-function create (name, number) {
-    return '${name}の学籍番号は${number}です。';
-}
+function create(name, number) {
+    const message = '${name}の学籍番号は${number}です。';
 
-module.exports = {create}
+    return message;
+}
